@@ -22,8 +22,6 @@ jobs:
         run: npm install
       - name: 🔨 build
         run: npm run build
-      - name: 🚀 login
-        run: npm login --scope=@ferch01992 --registry=https://npm.pkg.github.com
       - name: 🚀 publish
         run: npm publish --access public
         env:
