@@ -1,5 +1,5 @@
 {
-  "name": "example-npm",
+  "name": "@example-npm",
   "version": "0.3.0",
   "description": "example",
   "main": "public/index.js",
