@@ -9,6 +9,9 @@ jobs:
   publish-gpr:
     name: 🚀 publish
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - name: 📚 checkout
         uses: actions/checkout@v2
