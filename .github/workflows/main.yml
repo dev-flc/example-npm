@@ -25,4 +25,5 @@ jobs:
       - name: 🚀 publish
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GIT_GENERAL_TOKEN}}
+          NPM_TOKEN: ${{secrets.GIT_EXAM_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GIT_GENERAL_TOKEN}}
