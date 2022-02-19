@@ -1,0 +1,24 @@
+{
+  "name": "example-npm",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d public --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferch01992/example-npm.git"
+  },
+  "author": "Ferch01992",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "7.15.8"
+  },
+  "bugs": {
+    "url": "https://github.com/ferch01992/example-npm/issues"
+  },
+  "homepage": "https://github.com/ferch01992/example-npm#readme"
+}
