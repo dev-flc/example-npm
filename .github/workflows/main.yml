@@ -23,7 +23,8 @@ jobs:
       - name: 🔨 build
         run: npm run build
       - name: 🚀 publish
-        run: npm publish
+        run: npm login --scope=@ferch01992 --registry=https://npm.pkg.github.com
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{secrets.GIT_EXAM_TOKEN}}
