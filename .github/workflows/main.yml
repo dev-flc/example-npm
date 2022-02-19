@@ -2,8 +2,8 @@ name: "🚀 publish"
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - "*"
 
 jobs:
   publish-gpr:
