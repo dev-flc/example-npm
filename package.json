@@ -8,7 +8,7 @@
     "build": "babel src -d public --copy-files"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "@ferch01992:registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
