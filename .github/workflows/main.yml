@@ -24,7 +24,7 @@ jobs:
       - name: 🚀 install
         run: npm install
       - name: 🚀 update-package
-        run: npm run removelib
+        run: npm run removeLib
       - name: 🔨 build
         run: npm run build
       - name: 🚀 publish

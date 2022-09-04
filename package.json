@@ -1,6 +1,6 @@
 {
   "name": "example-npm-publics",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "description": "example",
   "main": "public/index.js",
   "files": [
@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d public --copy-files"
+    "build": "babel src -d public --copy-files",
+    "removeLib": "chmod +x removeLib.sh && ./removeLib.sh"
   },
   "repository": {
     "type": "git",
