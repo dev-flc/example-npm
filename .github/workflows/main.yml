@@ -1,4 +1,4 @@
-name: "🚀 publish example-npm"
+name: example-npm
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish-gpr:
-    name: 🚀 publish
+    name: 🚀 publish-example-npm
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -15,19 +15,19 @@ jobs:
     steps:
       - name: 📚 checkout
         uses: actions/checkout@v2
-      - name: 🟢 node
+      - name: ✅ node
         uses: actions/setup-node@v2
         with:
           node-version: 12
           registry-url: "https://registry.npmjs.org"
           scope: "@ferch01992"
-      - name: 🚀 install
+      - name: 📚 install-dependencies
         run: npm install
-      - name: 🚀 update-package
+      - name: 🗑️ remove-dependencies
         run: npm run removeLib
-      - name: 🔨 build
+      - name: 🛠️ build-package
         run: npm run build
-      - name: 🚀 publish
+      - name: 📦 publish-package
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

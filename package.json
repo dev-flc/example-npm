@@ -1,6 +1,6 @@
 {
   "name": "example-npm-publics",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "description": "example",
   "main": "public/index.js",
   "files": [
