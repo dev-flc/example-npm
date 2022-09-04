@@ -1,6 +1,6 @@
 {
   "name": "example-npm-publics",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "example",
   "main": "public/index.js",
   "files": [
@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/ferch01992/example-npm/issues"
   },
-  "homepage": "https://github.com/ferch01992/example-npm#readme",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "7.18.10",
@@ -52,5 +51,6 @@
     "react-router-dom": "6.3.0",
     "redux": "4.2.0",
     "redux-thunk": "2.4.1"
-  }
+  },
+  "homepage": "https://github.com/ferch01992/example-npm#readme"
 }
