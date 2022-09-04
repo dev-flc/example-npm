@@ -1,4 +1,4 @@
-name: "🚀 publish"
+name: "🚀 publish example-npm"
 
 on:
   push:
@@ -23,6 +23,8 @@ jobs:
           scope: "@ferch01992"
       - name: 🚀 install
         run: npm install
+      - name: 🚀 update-package
+        run: npm run removelib
       - name: 🔨 build
         run: npm run build
       - name: 🚀 publish

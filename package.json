@@ -1,6 +1,6 @@
 {
   "name": "example-npm-publics",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "example",
   "main": "public/index.js",
   "files": [
@@ -16,12 +16,50 @@
   },
   "author": "Ferch01992",
   "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.17.3",
-    "@babel/core": "7.15.8"
-  },
   "bugs": {
     "url": "https://github.com/ferch01992/example-npm/issues"
   },
-  "homepage": "https://github.com/ferch01992/example-npm#readme"
+  "homepage": "https://github.com/ferch01992/example-npm#readme",
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@babel/preset-env": "7.18.10",
+    "@babel/preset-react": "7.18.6",
+    "@commitlint/cli": "17.1.2",
+    "@commitlint/config-conventional": "17.1.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.7",
+    "babel-loader": "8.2.5",
+    "css-loader": "6.7.1",
+    "eslint": "8.23.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.2.5",
+    "eslint-plugin-promise": "6.0.1",
+    "eslint-plugin-react": "7.31.1",
+    "html-webpack-plugin": "5.5.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "react-refresh": "0.14.0",
+    "sass": "1.54.4",
+    "sass-loader": "13.0.2",
+    "style-loader": "3.3.1",
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.10.0",
+    "webpack-merge": "5.8.0",
+    "webpackbar": "5.0.2"
+  },
+  "dependencies": {
+    "@emotion/react": "11.10.0",
+    "@emotion/styled": "11.10.0",
+    "@mui/icons-material": "5.8.4",
+    "@mui/material": "5.10.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "8.0.2",
+    "react-router-dom": "6.3.0",
+    "redux": "4.2.0",
+    "redux-thunk": "2.4.1"
+  }
 }
